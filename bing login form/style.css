@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: block;
+    background: white;
+    box-sizing: border-box;
+
+
+}
+.login-form{
+    background: white;
+    height: 342px;
+    width: 437px;
+}
+.fix{
+    overflow: hidden;
+}
+.bing-wrap{
+    width: 441px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 118px;
+}
+body{
+    background: #369AB1;
+    height: 100vh;
+}    
+
+}
+.key{
+    border: 1px solid blue;
+ 
+}
+.container img{
+    width: 120px;
+    margin-top: 13.5px;
+}
+.container h1{
+    font-size: 23px;
+    margin-top: 10px;
+
+}
+.container p{
+    font-size: 13px;
+
+}
+.container input{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 3.5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 29.5px;
+
+
+}
+.container .no{
+    display: block;
+    font-size: 13px;
+    padding-top: 19px;
+    color: #666666;
+
+    
+}
+.container .no span{
+    color: #0067B8;
+}
+.container .no span:hover{
+    text-decoration: underline;
+    color: #666666;
+}
+.container .what a{
+    display: block;
+    font-size: 13px;
+    padding-top: 19px;
+    color: #0067B8;
+}
+.container .what img{
+    width: 20px;
+    transform: translate(153px,-29px);
+    margin-top: 12px;
+    display: block;
+}
+.next{
+    background-color: #0067B8;
+    padding: 6px 35px;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    transform: translate(288px,0px);
+}
+.key{
+    width: 438px;
+    height: 47px;
+    margin-top: 16px;
+    background: white;
+
+}
+.key img{
+    transform: translate(46px, 11px);
+}
+.key a{
+    transform: translate(60px, 2px);
+    display: inline-block;
+    color: #656565;
+}
+.logo img{
+    transform: translate(148px, -13px);
+}
+
+
+

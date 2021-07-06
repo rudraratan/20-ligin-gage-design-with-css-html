@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+.fix{
+    overflow: hidden;
+}
+.linkzilla{
+    border-bottom: 0.4px solid #EBEBEB;
+
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+
+}
+.btn ul{
+    display: flex;
+    justify-content: space-between;
+}
+.btn ul a{
+    padding: 8px 21px;
+    display: inline-block;
+    background-color: #4169E1;
+    margin-left: 18px;
+    margin-top: 24px;
+    color: white;
+}
+.btn ul li:nth-child(1) a{
+    background-color: #EF5753;
+}
+.logo{
+    padding: 10px 0;
+}
+
+.loginform{
+}
+.con{
+    width: 55%;
+    margin-top: 68px;
+}
+.loginuser:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.loginuser{
+    width: 200px;
+    margin: auto;
+    padding-left: 72px;
+
+}
+.loginuser i{
+    float: left;
+    font-size: 20px;
+    transform: translate(0px,3px);
+    color: #555555;
+
+}
+.loginuser h2{
+    width: 166px;
+    float: left;
+    transform: translate(7px,0px);
+    font-size: 22px;
+    color: #555555;
+    font-weight: normal;
+}
+.user{
+    margin-top: 56px;
+}
+.user h2{
+    font-size: 18px;
+    color: #555555;
+    font-weight: 200;
+
+}
+.user input{
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 14px;
+    
+}
+
+.two{
+    margin-top: 35px;
+}
+.btn{
+    margin-top: 5px;
+}
+.btn a{
+    margin: 20px 0px;
+    padding: 8px 0px;
+    display: inline-block;
+}
+.btn a:nth-child(1){
+    background: #4169E1;
+    padding: 9px 30px;
+    color: white;
+
+}
+.btn a:nth-child(2){
+    margin-left: 17px;
+    display: inline-block;
+    color: #4169E1;
+}
+.footer::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer{
+    margin-top: 38px;
+}
+.bg{
+        background-color: #EBEBEB;
+        height: 80px;
+
+}
+.all-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.all-wrap p{
+    padding: 17px;
+    margin-top: 18px;
+}
+.threebtn{
+    margin-top: 18px;
+    margin-right: 25px;
+
+}
+.threebtn a{
+    display: inline-block;
+    background-color: white;
+    margin: 10px;
+    padding: 7px 15px;
+    color: #4169E1;
+}
+.all-wrap
+
+
+
+
+
+
+
+/* border: 1px solid yellow; */

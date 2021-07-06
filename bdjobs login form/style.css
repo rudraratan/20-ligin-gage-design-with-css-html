@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+.fix{
+    overflow: hidden;
+}
+/* code start */
+body{
+    background: url(assets/image/login_bg.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.login-form{
+    width: 360px;
+    margin: auto;
+    margin-top: 30px;
+    background: white;
+    box-shadow: 0px 0px 14px grey;
+    border-radius: 10px;
+    height: 530px;
+    
+}
+
+.form h1{
+    font-size: 20px;
+    color: #2F64A3;
+    font-weight: 540;
+    margin-top: 13px;
+}
+.form p{
+    font-size: 16px;
+    color: #180000;
+    margin: 19px 0px;
+}
+.search input{
+    padding-bottom: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #CBCBCB;
+    font-size: 15px;
+}
+.btn{
+    padding: 24px 0px ;
+}
+.btn a:nth-child(1){
+    font-size: 14px;
+    color: #0066FF;
+
+}
+.btn a:nth-child(1):hover{
+    text-decoration: underline;
+}
+.btn a:nth-child(2){
+    background: #008020;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 20px #a9a0a0;
+    transform: translate(59px);
+    display: inline-block;
+}
+.fbgmail{
+    width: 97px;
+    margin: auto;
+}
+.fbgmail p{
+    font-size: 15px;
+    color: #59595E;
+    margin-left: 11px;
+}
+.fbgmail img{
+    width: 40px;
+    border-radius: 50px;
+    padding: 2px;
+}
+.creataccount{
+    height: 162px;
+}
+.creataccount h1{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    transform: translate(0px, 58px);
+}
+.creataccount a{
+    display: inline-block;
+    background: white;
+    padding: 10px 110px;
+    border-radius: 30px;
+    margin-top: 69px;
+}
+
+.background{
+    background: url(assets/image/background.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 103%;
+}
+
+/* border: 1px solid blue; */

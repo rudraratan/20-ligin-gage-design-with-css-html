@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+.fix{
+    overflow: hidden;
+}
+.allwrap{
+    width: 70%;
+    height: 411px;
+    background: white;
+    margin: auto;
+    margin-top: 110px;
+    box-shadow: 0px 0px 12px grey;
+}
+.wrap{
+}
+.left-side{
+    width: 50%;
+    float: left;
+}
+.social img{
+    width: 30px;
+}
+.right-side{
+    width: 49%;
+    float: left;
+}
+.left-side img{
+    transform: translate(32px, -12px);
+    padding: 20px 0px;
+}
+.left-side a{
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.right-side h2{
+    margin-top: 30px;
+}
+.right-side input{
+    padding: 9px 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-top: 10px;
+}
+.cheackbox {
+    padding: 21px 0px ;
+}
+.cheackbox input{
+    float: left;
+    transform: translate(25px, -8px);
+    width: 15%;
+}
+.cheackbox label{
+    float: left;
+    transform: translate(16px, 1px);
+    width: 84%;
+
+}
+.cheackbox a{
+    background: #6EADE3;
+    padding: 13px 33px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin: 24px 0px 31px 5px;
+
+}    
+.social{
+    display: flex;
+    margin-top: 10px;
+}
+.social img{
+    margin-left: 13px;
+}
+.social p{
+    margin-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* border: 1px solid yellow; */

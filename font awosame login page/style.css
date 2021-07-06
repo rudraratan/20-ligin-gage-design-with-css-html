@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+li{
+    list-style: none;
+}
+.fix{
+    overflow: hidden;
+}
+body{
+    background-color: #F8F9FA;
+    height: 100vh;
+}
+
+.sign-in h1{
+    font-size: 35px;
+    color: #495057;
+    text-align: center;
+    margin-top: 35px;
+}
+.sign-in a{
+    display: block;
+    color: #1864AB;
+    font-weight: 700;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 5px;
+
+}
+.form{
+   
+    position: absolute;
+    top: 35px;
+    right: 430px;
+    width: 450px;
+    height: 542px;
+    background: white;
+    box-shadow: 0px 0px 5px #d6cfcf;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+    
+
+.form h5{
+    margin-top: 29px;
+    font-size: 12px;
+    color: rgb(20, 3, 3);
+}
+.form .mail{
+    padding: 22px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #E8F0FE;
+    border: none;
+    box-shadow: inset 2px 2px 7px rgb(174, 212, 238);
+    
+}
+.form .pass{
+    padding: 22px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #E8F0FE;
+    border: none;
+    box-shadow: inset 2px 2px 7px rgb(174, 212, 238);
+
+}
+.form .forgot{
+    font-size: 16px;
+    color: #1C7ED6;
+    display: inline-block;
+    transform: translate(195px,156px);
+}
+.form h4{
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    color: #5A5E62;
+}
+.form h5{
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    color: #5A5E62;
+
+
+}
+.box input{
+    height: 18px;
+    width: 30px;
+}
+.box label{
+    font-size: 15px;
+    font-weight: normal;
+    color: #615E5C;
+    transform: translate(2px,-4px);
+    display: inline-block;
+    
+}
+.btn{
+    display: block;
+    padding: 27px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #1C7ED6;
+    color: white;
+    text-align: center;
+    border-radius: 9px;
+    margin-top: 15px;
+    box-shadow: inset -5px -10px 13px rgb(6 69 110);
+
+    
+}
+
+
+.form .box{
+    display: block;
+    margin-top: 23px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

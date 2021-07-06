@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+.fix{
+    overflow: hidden;
+}
+.allwrap{
+    width: 65%;margin: auto;
+    margin-top: 150px;
+    box-shadow: 0px 0px 7px grey;
+
+}
+.wrap{
+    box-sizing: border-box;
+    width: 100%;
+}
+.left-side{
+    width: 50%;
+    float: left;
+    height: 400px;
+}
+.right-side{
+    width: 50%;
+    float: left;
+}
+
+.sign{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.icon{
+    margin-right: 35px;
+}
+.icon i{
+    padding-left: 18px;
+}
+.login-box h3{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.login-box input{
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: rgb(240, 236, 236);
+    border: none;
+    height: 40px;
+}
+.login-box h3{
+    margin-top: 10px;
+}
+.login-box a{
+    display: block;
+    background-color: #E66368;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin: 15px 0px;
+}
+.box label{
+    font-size: 13.5px;
+    color: #E66368;
+}
+.box a{
+    margin-left: 132px;
+    color: grey;
+}
+
+.right-side{
+    background-image: linear-gradient(#ce3e4396,rgba(224, 140, 61, 0.562));
+    height: 400px;
+}
+.welcome h2{
+    font-size: 30px;
+    text-align: center;
+}
+.welcome h3{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+
+}
+.welcome a{
+    font-size: 18px;
+    display: inline-block;
+    margin: auto;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: white;
+    transform: translate(170px,19px);
+    border: 1px solid white;
+}
+.welcome{
+    overflow: hidden;
+    height: 121px;
+    margin-top: 154px;
+}
+
+/* border: 1px solid yellow; */

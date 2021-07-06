@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 80%;
+    display: block;
+}
+.fix{
+    overflow: hidden;
+}
+/*  */
+.all_wrap{
+    border: 1px solid rgb(219, 219, 215);
+    width: 402px;
+    height: 250px;
+    margin: auto;
+    margin-top: 84px;
+    border-radius: 5px;
+}
+.left{
+ 
+}
+.right{
+
+}
+.all_wrap h2{
+    font-size: 19px;
+    color: #2E2E2E;
+    background: #F2F2F2;
+    padding: 10px;
+    border: 1px solid rgb(219, 219, 215);
+}
+.left{
+    width: 134px;
+    float: left;
+}
+.left img{
+    margin-top: 27px;
+}
+.right{
+    width: 266px;
+    float: left;
+}
+.box{
+   margin-top: 30px; 
+}
+.container{
+ 
+}
+.box p{
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+.box input{
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+
+}
+.cheak label{
+    font-size: 13px;
+}
+.cheak input{
+    width: 19px;
+}
+.cheak a{
+    display: inline-block;
+    background: #8DC526;
+    font-size: 13px;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 6px;
+    margin: 0px 5px;
+}
+.cheak a:hover{
+    color: black;
+}
+
+/* 
+border: 1px solid yellow;
+ */
